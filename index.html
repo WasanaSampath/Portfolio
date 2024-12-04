@@ -832,16 +832,197 @@
 
 <!--------------Certifications & Achievements Section--------------------------->
 
-        <section class="timeline">
+<section class="timeline">
 
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="book-outline"></ion-icon>
+    </div>
 
-            <h3 class="h3">Certifications & Achievements</h3>
-          </div>
+    <h3 class="h3">Certifications & Achievements</h3>
+  </div>
 <br>
+
+<section class="projects">
+
+  <ul class="filter-list">
+<!-------Backend Filter-->
+    <li class="filter-item">
+      <button class="active" data-filter-btn>All</button>
+    </li>
+
+    <li class="filter-item">
+      <button data-filter-btn>Cisco</button>
+    </li>
+
+    <li class="filter-item">
+      <button data-filter-btn>IBM</button>
+    </li>
+
+    <li class="filter-item">
+      <button data-filter-btn>Microsoft</button>
+    </li>
+
+    <li class="filter-item">
+      <button data-filter-btn>Google</button>
+    </li>
+
+    <li class="filter-item">
+      <button data-filter-btn>AWS</button>
+    </li>
+
+    <li class="filter-item">
+      <button class="active" data-filter-btn>Oracle</button>
+    </li>
+
+    <li class="filter-item">
+      <button data-filter-btn>Fortinet</button>
+    </li>
+
+    <li class="filter-item">
+      <button data-filter-btn>ISC2</button>
+    </li>
+
+    <li class="filter-item">
+      <button data-filter-btn>Cybrary</button>
+    </li>
+
+    <li class="filter-item">
+      <button data-filter-btn>OPSWAT</button>
+    </li>
+
+    <li class="filter-item">
+      <button data-filter-btn>Aviatrix</button>
+    </li>
+
+    <li class="filter-item">
+      <button data-filter-btn>Cognitive Class</button>
+    </li>
+
+    <li class="filter-item">
+      <button data-filter-btn>SkillFront</button>
+    </li>
+
+    <li class="filter-item">
+      <button data-filter-btn>FedVTE</button>
+    </li>
+
+    <li class="filter-item">
+      <button data-filter-btn>Great Learning Academy</button>
+    </li>
+
+
+<!-------Frontend Filter-->   
+
+  </ul>
+
+  <div class="filter-select-box">
+
+    <button class="filter-select" data-select>
+
+      <div class="select-value" data-selecct-value>Certified From</div>
+
+      <div class="select-icon">
+        <ion-icon name="chevron-down"></ion-icon>
+      </div>
+
+    </button>
+
+    <ul class="select-list">
+
+      <li class="select-item">
+        <button data-select-item>All</button>
+      </li>
+
+      <li class="select-item">
+        <button data-select-item>Cisco</button>
+      </li>
+
+      <li class="select-item">
+        <button data-select-item>IBM</button>
+      </li>
+
+      <li class="select-item">
+        <button data-select-item>Microsoft</button>
+      </li>
+
+      <li class="select-item">
+        <button data-select-item>Google</button>
+      </li>
+
+      <li class="select-item">
+        <button data-select-item>AWS</button>
+      </li>
+
+      <li class="select-item">
+        <button data-select-item>Oracle</button>
+      </li>
+
+      <li class="select-item">
+        <button data-select-item>Fortinet</button>
+      </li>
+
+      <li class="select-item">
+        <button data-select-item>ISC2</button>
+      </li>
+
+      <li class="select-item">
+        <button data-select-item>Cybrary</button>
+      </li>
+
+      <li class="select-item">
+        <button data-select-item>OPSWAT</button>
+      </li>
+
+      <li class="select-item">
+        <button data-select-item>Aviatrix</button>
+      </li>
+
+      <li class="select-item">
+        <button data-select-item>Cognitive Class</button>
+      </li>
+
+      <li class="select-item">
+        <button data-select-item>SkillFront</button>
+      </li>
+
+      <li class="select-item">
+        <button data-select-item>FedVTE</button>
+      </li>
+
+      <li class="select-item">
+        <button data-select-item>Great Learning Academy</button>
+      </li>
+
+    </ul>
+
+  </div>
+<!-----------set Filters correctly----->
+  <ul class="project-list">
+
+    
+    <li class="project-item  active" data-filter-item data-category="web development">
+      <a href="#">
+
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+
+          <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+        </figure>
+
+        <h3 class="project-title">Arrival</h3>
+
+        <p class="project-category">Web development</p>
+
+      </a>
+    </li>
+
+  </ul>
+
+</section>
+       
           <ol class="timeline-list">
 
             <li class="timeline-item">
@@ -850,7 +1031,7 @@
 
             <ul class="blog-posts-list">
   
-              <li class="blog-post-item">
+              <li class="blog-post-item" data-filter-item data-category="IBM">
                 <a href="#">
   
                   <figure class="blog-banner-box">
@@ -890,7 +1071,7 @@
   
               <ul class="blog-posts-list">
     
-                <li class="blog-post-item">
+                <li class="blog-post-item" data-filter-item data-category="Cisco">
                   <a href="#">
     
                     <figure class="blog-banner-box">
@@ -1503,6 +1684,10 @@
     </div>
 
   </main>
+
+
+
+
 
 
   <!--
